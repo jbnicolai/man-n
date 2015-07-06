@@ -4,4 +4,4 @@ ghc:
 install:
   - cabal install shellcheck
 script:
-  - shellcheck $(find . -name "*.sh")
+  - shellcheck ./bin/man-n
